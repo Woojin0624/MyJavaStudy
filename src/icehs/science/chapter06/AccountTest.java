@@ -13,6 +13,9 @@ public class AccountTest {
 		
 		acc1.deposit(20000);
 		acc1.checkBalance();
+		
+		System.out.println();
+		
 		acc1.withdraw(45000);
 		acc1.checkBalance();
 		
